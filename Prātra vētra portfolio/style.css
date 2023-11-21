@@ -1,0 +1,136 @@
+body {
+    position: relative;
+    background-color: rgb(230, 180, 163);
+}
+
+#pvlogo {
+    position: absolute;
+    top: -50px;
+    right: 20px;
+    position: fixed;
+}
+
+#pvlogo :hover {
+    background-color: darkred;
+}
+
+
+
+#header hero div .wrapper div {
+    width: 300px;
+    height: 300px;
+}
+
+#hero div .wrapper .green {
+    background-color: green;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+header img {
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul :hover {
+    color: greenyellow;
+}
+
+
+
+h1 {
+    color: rgb(13, 6, 90);
+    background-color: rgb(232, 135, 65);
+    width: 300px;
+    height: 50px;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+    border: 2px solid rgb(53, 37, 226);
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+main section {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(13, 6, 90);
+    gap: 80px;
+}
+
+main img {
+    width: 300px;
+    height: 200px;
+}
+
+.g1:hover {
+    color: greenyellow;
+}
+
+section video {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+section iframe {
+    width: 560px;
+    height: 315px;
+}
+
+section gramata {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.g2:hover {
+    color: greenyellow;
+}
+
+footer p {
+    color: red;
+}
+
+footer p1 {
+    color: rgb(21, 104, 6);
+}
+
+
+/* Goes to 768 */
+@media screen and (max-width: 768px) {
+    header img {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+
+
+/* Goes to 500 */
+@media screen and (min-width: 500px) {
+    h1 {
+        background-color: chartreuse;
+    }
+}
